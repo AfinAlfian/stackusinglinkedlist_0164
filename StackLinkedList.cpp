@@ -90,6 +90,14 @@ int main()
 			cout << "Enter the value to push: ";
 			cin >> value;
 			stack.push(value);
+		case 2:
+			if (!stack.isEmpty()) {
+				stack.pop();
+			}
+			else {
+				cout << "Stack is empty. Cannot pop" << endl;
+			}
+			break;
 			break;
 		default:
 			cout << "Invaid choice. Try again." << endl;
