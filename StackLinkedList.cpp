@@ -83,6 +83,13 @@ int main()
 		cout << "4. Exit\n";
 		cout << "Enter your choice: \n";
 		cin >> choice;
+
+		switch (choice)
+		{
+		default:
+			cout << "Invaid choice. Try again." << endl;
+			break;
+		}
 	}
 	return 0;
 }
